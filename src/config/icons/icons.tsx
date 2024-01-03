@@ -11,7 +11,7 @@ export const ShipIcon = () => (
 </svg>
 )
 
-export const ContainerIcon = () => (
+export const WarehousIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="57" height="47" viewBox="0 0 57 47" fill="none">
   <path d="M2.36719 45.6087H54.7481" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M32.7479 45.6087V3.52175C32.7479 3.01438 32.5429 2.52779 32.178 2.16902C31.8131 1.81026 31.3183 1.6087 30.8023 1.6087H7.45534C6.93934 1.6087 6.44448 1.81026 6.07961 2.16902C5.71475 2.52779 5.50977 3.01438 5.50977 3.52175V45.6087" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

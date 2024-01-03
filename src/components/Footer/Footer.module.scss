@@ -1,0 +1,96 @@
+@import "/src/config/theme/colors.scss";
+
+.footer {
+    width: 100%;
+    height: 490px;
+    background-color: $primaryDarkBlue;
+    color: $white;
+    .footer__intro {
+        background-color: rgba(255, 255, 255, 0.08);
+        height: 118px;
+        width: 100%;
+        margin-bottom: 30px;
+        .footer__info{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .mainLogo {
+                width: 427px;
+                height: 100%;
+                background-color: $primaryDarkBlue;
+                display: flex;
+                align-items: center;
+                font-size: 30px;
+                padding-left: 45px;
+            }
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+   .footer__content {
+    display: flex;
+    justify-content: space-around;
+    .footer__contact {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .contact__item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+    }
+    .footer__pagesNav {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .footer__utilityNav {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .footer__subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 317px;
+        input {
+            width: 100%;
+            height: 60px;
+            background-color: transparent;
+            border: 1px solid #4E5683;
+            &::placeholder {
+                padding-left: 20px;
+                font-size: 20px;
+            }
+        }
+        button {
+            padding: 19px 36px;
+            background: $gradient;
+            color: $black;
+        }
+        .footer__social {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+   }
+}
+.copyright__wrapper {
+    background-color: $primaryDarkBlue;
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid #4E5683;
+    .footer__copyright {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: $white;
+        justify-content: space-between;
+    }
+}
