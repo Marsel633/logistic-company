@@ -1,0 +1,27 @@
+@import "/src/config/theme/colors.scss";
+
+.button {
+    padding: 20px 50px;
+    background: $gradient;
+    color: $black;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border: none;
+    &::before {
+        content: "";
+        width: 52px;
+        height: 52px;
+        position: absolute;
+        background-color: $white;
+        top: 36px;
+        left: 159px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+        z-index: -1;
+    }
+    &:hover::before{
+       transform: scale(4.3);
+    }
+}

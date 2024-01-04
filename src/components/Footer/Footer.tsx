@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Footer.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { GradientButton } from "@/ui-kit";
+
 
 export const Footer = () => {
   return (
@@ -54,7 +56,7 @@ export const Footer = () => {
           <div className={styles.footer__subscribe}>
             <input type="text" placeholder="Email here *"/>
             <div className={styles.footer__social}>
-              <button>Send now</button>
+              <GradientButton>Send Now</GradientButton>
               <Image
                 src={"/Linkdin.svg"}
                 width={20}
