@@ -32,8 +32,8 @@
 .nav__wrapper {
     width: 100%;
     height: 80px;
-    // background-color: #09124240;
-    fill: rgba(9, 18, 66, 0.25);
+    position: absolute;
+    background-color: #09124240;
     .nav {
         height: 100%;
         display: flex;
@@ -56,6 +56,7 @@
                 background-color: $white;
                 color: $black;
                 font-size: 16px;
+                border: none;
             }
         }
     }

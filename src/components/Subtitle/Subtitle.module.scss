@@ -1,0 +1,20 @@
+@import "/src/config/theme/colors.scss";
+
+.subtitle {
+    position: relative;
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 3px 9px;
+    background: rgba(4, 28, 55, 0.50);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 4px;
+        background: $gradient;
+    }
+}

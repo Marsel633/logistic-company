@@ -15,12 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={rubik.className}>
-        <Header />
-        <main className="container">{children}</main>
-        <Footer/>
-      </body>
-    </html>
+      <html lang="en">
+        <body className={rubik.className}>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </html>
   );
 }
