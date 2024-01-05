@@ -21,3 +21,15 @@
         }
     }
 }
+.services {
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    .services__types {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 70px;
+        column-gap: 83px;
+    }
+}

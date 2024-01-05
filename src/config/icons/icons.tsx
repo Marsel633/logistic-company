@@ -1,5 +1,5 @@
 export const ShipIcon = () => (
-        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="57" viewBox="0 0 52 57" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="77" height="66" viewBox="0 0 77 66" fill="none">
   <path d="M25.6602 8.08132V1.91638" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M50.3195 36.8511C46.5692 49.9516 29.2046 54.5239 26.1221 55.2432C25.8187 55.3204 25.5008 55.3204 25.1974 55.2432C22.1149 54.5239 4.75034 49.9516 1 36.8511V28.0661C0.999964 27.6334 1.13652 27.2117 1.39021 26.8611C1.64389 26.5106 2.00176 26.2491 2.4128 26.1138L25.0176 18.5618C25.436 18.433 25.8835 18.433 26.3019 18.5618L48.9067 26.1138C49.3178 26.2491 49.6756 26.5106 49.9293 26.8611C50.183 27.2117 50.3195 27.6334 50.3195 28.0661V36.8511Z" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M26.1271 48.5815C23.6883 48.02 9.94964 44.4505 6.98242 34.223" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

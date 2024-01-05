@@ -2,12 +2,10 @@
 
 .subtitle {
     position: relative;
-    color: $white;
     font-weight: 400;
     font-size: 14px;
     padding: 3px 9px;
-    background: rgba(4, 28, 55, 0.50);
-
+    width: max-content;
     &::before {
         content: "";
         position: absolute;
