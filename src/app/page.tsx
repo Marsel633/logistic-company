@@ -1,6 +1,5 @@
-import { DefaultLightButton } from "@/ui-kit";
-import styles from "./Homepage.module.scss";
-import { ServicesCard, Subtitle, Title } from "@/components";
+import { ServicesCard, Subtitle, Title, TransportationCard } from "@/components";
+import { DefaultDarkButton, DefaultLightButton } from "@/ui-kit";
 import {
   BoxIcon,
   MoneyIcon,
@@ -11,8 +10,9 @@ import {
   colors,
 } from "@/config";
 import Image from "next/image";
+import styles from "./Homepage.module.scss";
 
-const Home = () => {
+const Home:React.FC = () => {
   return (
     <>
       <section className={styles.homepage__wrapper}>
@@ -82,7 +82,7 @@ const Home = () => {
           width={1470}
           alt="containers image"
         />
-        <div className={styles.provide__info}>
+        <div className={`${styles.provide__info} container`}>
           <div className={styles.provide__info__intro}>
             <Subtitle
               text="Why Us"
@@ -146,6 +146,18 @@ const Home = () => {
               <p className={styles.statistic__title}>Satisfied Clients</p>
             </div>
           </div>
+      </section>
+      <section className={styles.transporting}>
+        <Title text="Transporting Across The World" textColor={colors.title} fontSize="35px" fontWeight="600"/>
+        <div className={styles.transporting__cards}>
+        <TransportationCard title="Liquid Transportation" desc="Premium Tankers" image="/train-for-card.png"/>
+        <TransportationCard title="Packaging Solutions" desc="Warehouse Management" image="/management-for-card.png" />
+        <TransportationCard title="Contract Logistics" desc="Road Transportation" image="/truck-for-card.png" />
+        <TransportationCard title="Warehouse & Distribution" desc="Large Warehouse" image="/warehouse-for-card.png" />
+        <TransportationCard title="Specialized Transport" desc="Ocean Transports" image="/ship-for-card.png" />
+        </div>
+        <div className={styles.transporting__background}></div>
+        <DefaultDarkButton>More Work</DefaultDarkButton>
       </section>
     </>
   );

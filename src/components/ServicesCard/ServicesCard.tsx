@@ -1,11 +1,6 @@
 import React from 'react'
 import styles from "./ServicesCard.module.scss"
-
-type ServicesCardType = {
-    icon: React.ReactNode,
-    title: string,
-    description: string,
-}
+import { ServicesCardType } from '@/config'
 
 export const ServicesCard : React.FC<ServicesCardType> = ({icon, title, description}) => {
   return (

@@ -10,3 +10,29 @@ export type Colors = {
     subtitleLightBg: string,
     subtitleDarkBg: string,
 }
+
+export type ServicesCardType = {
+    icon: React.ReactNode,
+    title: string,
+    description: string,
+}
+
+export type SubtitleType = {
+    text: string,
+    bgColor: string,
+    textColor: string,
+}
+
+export type TitleType = {
+    text: string,
+    width?: string
+    textColor: string,
+    fontSize: string,
+    fontWeight: string,
+}
+
+export type TransportationCardType = {
+    title: string,
+    desc: string, 
+    image: string,
+}
