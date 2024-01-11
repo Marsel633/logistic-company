@@ -8,9 +8,15 @@ import {
 import { DefaultDarkButton, DefaultLightButton } from "@/ui-kit";
 import {
   BoxIcon,
+  CoinIcon,
+  HeadphonesIcon,
   MoneyIcon,
   PlaneIcon,
+  PlaneWithPlanet,
+  PlanetIcon,
   ShipIcon,
+  ShipInCircleIcon,
+  TimeIcon,
   TruckIcon,
   WarehousIcon,
   colors,
@@ -236,6 +242,59 @@ const Home: React.FC = () => {
             textColor={colors.white}
             feedbackTextColor={colors.white}
           />
+        </div>
+      </section>
+      <section className={styles.why_us}>
+        <div className={styles.why_us__image}>
+          <Image width={670} height={445} src="/Plane-bg.png" alt="plane" />
+          <div className={styles.movingProducts}>
+            <PlaneWithPlanet/>
+            <p>Moving your products across borders</p>
+          </div>
+        </div>
+        <div className={styles.why_us__info}>
+          <Subtitle
+            text="Why Choose"
+            textColor={colors.title}
+            bgColor={colors.subtitleLightBg}
+          />
+          <Title
+            text="We create opportunity to reach potential"
+            textColor={colors.black}
+            fontSize="35px"
+            fontWeight="600"
+          />
+          <p className={styles.info__description}>
+            Leverage agile frameworks to provide a robust synopsis for strategy
+            foster collaborative thinking to further the overall value
+            proposition.
+          </p>
+          <div className={styles.info__categories}>
+            <div>
+              <BoxIcon />
+              <p>Safe Package</p>
+            </div>
+            <div>
+              <PlanetIcon />
+              <p>Global Tracking</p>
+            </div>
+            <div>
+              <TimeIcon />
+              <p>In Time Delivery</p>
+            </div>
+            <div>
+              <ShipInCircleIcon />
+              <p>Ship Everyware</p>
+            </div>
+            <div>
+              <HeadphonesIcon />
+              <p>24/7 Support</p>
+            </div>
+            <div>
+              <CoinIcon />
+              <p>Transparant Pricing</p>
+            </div>
+          </div>
         </div>
       </section>
     </>
