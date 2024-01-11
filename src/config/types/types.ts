@@ -51,3 +51,13 @@ export type FeedbackCardType = {
 export type RatingType = {
     stars: number,
 }
+
+export type TeamCardType = {
+    name: string,
+    profession: string,
+    image: string,
+    twitter: boolean,
+    instagram: boolean,
+    facebook: boolean,
+    linkedin: boolean,
+}

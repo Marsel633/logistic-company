@@ -255,3 +255,14 @@ margin-top: 40px;
       }
     }
   }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+    .team__cards {
+      display: flex;
+      gap: 54px;
+    }
+  }

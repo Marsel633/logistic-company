@@ -2,6 +2,7 @@ import {
   FeedbackCard,
   ServicesCard,
   Subtitle,
+  TeamCard,
   Title,
   TransportationCard,
 } from "@/components";
@@ -295,6 +296,15 @@ const Home: React.FC = () => {
               <p>Transparant Pricing</p>
             </div>
           </div>
+        </div>
+      </section>
+      <section className={`${styles.team} container`}>
+        <Subtitle text="The Transporters" textColor={colors.title} bgColor={colors.subtitleLightBg} />
+        <Title text="Meet Expert Team" textColor={colors.title} fontSize="35px" fontWeight="600" />
+        <div className={styles.team__cards}>
+          <TeamCard name="Jessca Arow" profession="Designer" image="/user3.png" twitter={true} linkedin={true} instagram={true} facebook={true} />
+          <TeamCard name="Kathleen Smith" profession="Designer" image="/user5.png" twitter={true} linkedin={false} instagram={true} facebook={true} />
+          <TeamCard name="Rebecca Tylor" profession="Designer" image="/user4.png" twitter={true} linkedin={true} instagram={false} facebook={false} />
         </div>
       </section>
     </>
