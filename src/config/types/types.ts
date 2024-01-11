@@ -1,7 +1,7 @@
 export type Colors = {
     primaryYellow: string,
     primaryDarkBlue: string,
-    secondary: string,
+    primaryWhite: string,
     title: string,
     text: string,
     gradient: string,
@@ -35,4 +35,19 @@ export type TransportationCardType = {
     title: string,
     desc: string, 
     image: string,
+}
+
+export type FeedbackCardType = {
+    title: string,
+    company: string,
+    image: string,
+    feedback: string,
+    rating: number,
+    bgColor: string,
+    textColor: string,
+    feedbackTextColor: string,
+}
+
+export type RatingType = {
+    stars: number,
 }
